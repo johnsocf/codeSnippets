@@ -1,0 +1,40 @@
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Canvas List</title>
+        <meta charset="utf-8">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body class="canvas-drawing"> 
+    <div id="content">    
+        <h1>Canvas Image and Text Layout</h1>    
+    <ul id="canvas-images">
+        <li data="images/image1.jpg">Image 1</li>
+        <li data="images/image2.jpg">Image 2</li>
+        <li data="images/image3.jpg">Image 3</li>
+        <li data="images/image1.jpg">Image 4</li>
+        <li data="images/image2.jpg">Image 5</li>
+        <li data="images/image3.jpg">Image 6</li>
+        <li data="images/image1.jpg">Image 7</li>
+        <li data="images/image2.jpg">Image 8</li>
+        <li data="images/image3.jpg">Image 9</li>
+        <li data="images/image1.jpg">Image 10</li>
+        <li data="images/image2.jpg">Image 11</li>
+        <li data="images/image3.jpg">Image 12</li>
+        <li data="images/image1.jpg">Image 13</li>
+        <li data="images/image2.jpg">Image 14</li>
+    </ul>
+    <canvas id="myCanvas" class="canvas-cell" width="800" height="990"></canvas>
+    <h2>Layout before Animation</h2>
+    </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/canvasdrawing.js"></script>
+    <script src="js/modernizr-custom.js"></script>
+    <script src="js/webshim/polyfiller.js"></script>
+    <script src="js/underscore-min.js"></script>
+    <script>
+            $.webshims.polyfill();    
+    </script> 
+    </body>
+</html>
